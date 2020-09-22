@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    // module resolution
+    "types": ["node"],
+    // basic
+    "lib": ["es2017", "esnext.asynciterable"],
+    "allowJs": true,
+    "checkJs": true,
+
+    // strict type-checking
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+
+    // additional checks
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    // module resolution
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  }
+  // "include": ["./*"]
+}
